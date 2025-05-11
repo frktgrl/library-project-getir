@@ -1,6 +1,5 @@
 package com.ftgrl.library_project_getir.config;
 
-
 import io.swagger.v3.oas.models.info.Contact;
 import io.swagger.v3.oas.models.info.Info;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -19,4 +18,3 @@ public class SwaggerConfig {
                 .contact(new Contact().name("Getir Bootcamp").email("dev@getir.com")));
     }
 }
-
