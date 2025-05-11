@@ -1,6 +1,7 @@
 package com.ftgrl.library_project_getir.service.impl;
 
 
+import com.ftgrl.library_project_getir.entity.User;
 import com.ftgrl.library_project_getir.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

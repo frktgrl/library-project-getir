@@ -1,5 +1,6 @@
 package com.ftgrl.library_project_getir.config;
 
+import com.ftgrl.library_project_getir.service.impl.CustomUserDetailsService;
 import com.ftgrl.library_project_getir.util.JwtUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

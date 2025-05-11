@@ -72,6 +72,12 @@
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
 			<version>2.1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.2</version> <!-- En son sürümü kullanabilirsiniz -->
+		</dependency>
+
 
 	</dependencies>
 
