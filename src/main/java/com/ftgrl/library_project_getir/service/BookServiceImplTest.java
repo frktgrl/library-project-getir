@@ -9,10 +9,15 @@ import org.mockito.*;
 import java.time.LocalDate;
 import java.util.Optional;
 import static org.assertj.core.api.Assertions.assertThat;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static org.mockito.Mockito.*;
 
 class BookServiceImplTest {
+
+    private static final Logger log = LoggerFactory.getLogger(BookServiceImpl.class);
+
 
     @InjectMocks
     private BookServiceImpl bookService;

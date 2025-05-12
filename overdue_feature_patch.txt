@@ -1,0 +1,30 @@
+=== Borrowing.java ===
+// Borrowing.java içine eklenecek örnek alanlar ve yardımcı metot
+
+import java.time.LocalDate;
+
+private LocalDate borrowDate;
+private LocalDate dueDate;
+
+public boolean isOverdue() {
+    return dueDate != null && LocalDate.now().isAfter(dueDate);
+}
+
+=== BorrowService.java ===
+// BorrowService.java içine eklenebilir
+
+public List<Borrowing> getOverdueBooks() {
+    return borrowingRepository.findAll()
+            .stream()
+            .filter(Borrowing::isOverdue)
+            .collect(Collectors.toList());
+}
+
+=== BorrowController.java ===
+// BorrowController.java içine eklenebilir
+
+@GetMapping("/overdue")
+@PreAuthorize("hasRole('LIBRARIAN')")
+public ResponseEntity<List<Borrowing>> getOverdueBooks() {
+    return ResponseEntity.ok(borrowService.getOverdueBooks());
+}
