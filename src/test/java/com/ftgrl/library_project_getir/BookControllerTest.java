@@ -1,4 +1,5 @@
-package com.ftgrl.library_project_getir.controller;
+package com.ftgrl.library_project_getir;
+
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.ftgrl.library_project_getir.dto.BookRequestDTO;
@@ -36,4 +37,5 @@ public class BookControllerTest {
                 .andExpect(status().isOk());
     }
 }
+
 

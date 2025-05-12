@@ -1,4 +1,4 @@
-package com.ftgrl.library_project_getir.service;
+package com.ftgrl.library_project_getir;
 
 import com.ftgrl.library_project_getir.dto.BookRequestDTO;
 import com.ftgrl.library_project_getir.entity.Book;
@@ -51,4 +51,5 @@ class BookServiceImplTest {
         Assertions.assertThrows(RuntimeException.class, () -> bookService.getBookById(1L));
     }
 }
+
 

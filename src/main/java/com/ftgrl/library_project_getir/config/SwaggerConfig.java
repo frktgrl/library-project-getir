@@ -15,6 +15,6 @@ public class SwaggerConfig {
                 .title("Library Management System API")
                 .version("1.0.0")
                 .description("Getir Java Spring Bootcamp Bitirme Projesi - Kütüphane API")
-                .contact(new Contact().name("Getir Bootcamp").email("dev@getir.com")));
+                .contact(new Contact().name("Faruk Tugrul").email("faruk.tugrul@getir.com")));
     }
 }
