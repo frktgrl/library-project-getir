@@ -65,7 +65,7 @@ Testlerde Mockito kullanılmıştır. H2 veritabanı ile çalışır.
 - Role-based yetkilendirme (`@PreAuthorize`)
 - Overdue kitap listesi için özel endpoint (`/borrow/overdue`)
 
----
+- ---
 
 ## 📁 Proje Yapısı
 - `controller`: API uç noktaları
@@ -74,3 +74,10 @@ Testlerde Mockito kullanılmıştır. H2 veritabanı ile çalışır.
 - `dto`: Veri transfer nesneleri
 - `config`: Güvenlik ve Swagger yapılandırması
 - `exception`: Global hata yönetimi
+  
+![proje çalışıyor](https://github.com/user-attachments/assets/887717b0-ab43-4732-9fa8-e26ba1da1d0d)
+
+![swagger görüntüleri ](https://github.com/user-attachments/assets/c513c1b9-ade9-4a54-903f-7157095170bb)
+
+
+
